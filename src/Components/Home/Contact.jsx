@@ -13,7 +13,7 @@ function Contact() {
           to="https://linkedin.com/in/tanisha-bisht-4862a72aa"><img src="https://img.icons8.com/?size=48&id=DYoTRhf8VVC1&format=png" alt="" /></Link> Linkdin</p>
           <p className='flex gap-4 items-center ml-2'><Link 
           to="https://github.com/tanishabisht0707"><img src="https://img.icons8.com/?size=48&id=63777&format=png" alt="" /></Link> Github</p>
-          <p className='flex gap-4 items-center ml-2'><Link ><img className='w-10' src="https://img.icons8.com/?size=80&id=nQ4dZIRCI0nW&format=png" alt="" /></Link>Email</p>
+          <p className='flex gap-4 items-center ml-2'><Link to="https://tanishabisht007@gmail.com"><img className='w-10' src="https://img.icons8.com/?size=80&id=nQ4dZIRCI0nW&format=png" alt="" /></Link>Email</p>
         </div>
         </div>
        </div>
