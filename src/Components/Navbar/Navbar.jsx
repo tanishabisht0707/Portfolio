@@ -3,11 +3,11 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <div  className="navbar h-full z-20 shadow-xl shadow-gray-900 pl-5 pt-16">
+    <div  className="navbar h-full w-38 z-20 shadow-xl shadow-gray-900 pl-5 pt-16">
       <div className="logo">
         <p className="text-xl">Tanisha<span  className="text-yellow-500 text-2xl">.dev</span></p>
       </div>
-      <div className="nav-links py-10 flex flex-col items-justify">
+      <div className="nav-links pb-24 flex flex-col items-justify">
         <Link   to="Home" spy={true} smooth={true} offset={-100} duration={500}>
         <p className="text-x flex items-center cursor-pointer py-4"><span className="material-symbols-outlined text-2xl">home_pin</span>Home</p>
         </Link>

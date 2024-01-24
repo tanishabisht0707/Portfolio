@@ -20,16 +20,15 @@ function Home() {
                 alt=""
               />
             </div>
-            <div className="intoduce pl-10 mt-5  text-gray-200  ">
+            <div className="intoduce pl-10 mt-4  text-gray-200  ">
               <p className="text-3xl">
                 Iam " Tanisha Bisht " a<br />{" "}
                 <span className="text-yellow-500 text-3xl ">
                   front-end web developer{" "}
                 </span>
               </p>
-              <p className="text-x mt-3 text-gray-500">
-                I Love what i do and iam good at it, It's <br /> never makes me
-                feel tired because i enjoy my work{" "}
+              <p className="inrto-text text-x mt-3 text-gray-500 w-full ">
+               Thinking evertime something creative and then convert  it into  <br />some code thats what i enjoy the most. I love to   develop interactive <br />  and user friendly frontend web application.   
               </p>
             </div>
           </div>
