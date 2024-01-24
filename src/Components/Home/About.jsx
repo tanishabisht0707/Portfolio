@@ -13,7 +13,7 @@ function About() {
             web developer from New Delhi, Dwarka.{" "}
           </p>
           <p className=" text-gray-300   ">
-            Iam a junior developer but have good skills in{" "}
+            Iam have good skills in{" "}
             <span className="text-yellow-500 text-2xl">
               {" "}
               Html , Css , JavaScript , ReactJs and Tailwind css

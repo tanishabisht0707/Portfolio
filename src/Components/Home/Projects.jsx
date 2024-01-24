@@ -4,27 +4,34 @@ import foodWeb from "../../../Image/foodWeb.png";
 import petWeb from "../../../Image/petWeb.png";
 import coffee from "../../../Image/coffee.png";
 import shoes from "../../../Image/shoes.png";
-import { Carousel } from "@material-tailwind/react";
+import { NavLink } from "react-router-dom";
 
 function Projects() {
   return (
-    <div className="Projects">
-      <div  id="carouselExampleCaptions" className="carousel slide w-4/6"  data-bs-ride="carousel"
+    <div className="Projects relative">
+      <div  id="carouselExampleCaptions" className="carousel slide w-4/6 rounded-xl "  data-bs-ride="carousel"
       >
    
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={website} className="d-block w-100" />
-            <button className=" bg-white">blick</button>
+        <div className="carousel-inner ">
+          <div className="carousel-item active ">
+            <img src={website} className="d-block w-100 " />
+            <NavLink to="https://shestore.netlify.app" target="blank"  className="Demo">Live Demo</NavLink>
+            <span>sheStore a women fashion wear website where girls and women can buy there trendy and fashionable western and traditional dresses. This website has all functionality. Languages : React JS  , Redux  and CSS.</span>
           </div>
           <div className="carousel-item">
             <img src={foodWeb} className="d-block w-100"  />
+            <NavLink to="https://recepesite.netlify.app" target="blank"  className="Demo">Live Demo</NavLink>
+            <span>RecepeSite a Recepe finding website where anyone can find Recepe of different countries. This website has all basic functionality. Languages : React JS  , Redux  and CSS.</span>
           </div>
           <div className="carousel-item">
             <img src={petWeb} className="d-block w-100"  />
+            <NavLink to="https://adoptionsite.netlify.app" target="blank"  className="Demo">Live Demo</NavLink>
+            <span>warmShelter is a Dog adoption website where people can adopt dogs. warmshelter also tell the importance of adopting pet and spread a message : (adopt don't buy).This website made with heart. Languages : React js and Css.</span>
           </div>
           <div className="carousel-item">
             <img src={shoes} className="d-block w-100"  />
+            <NavLink to="https://sneakerswear.netlify.app" target="blank"  className="Demo">Live Demo</NavLink>
+            <span>Sneaks is a Sneakers website where anyone can buy all trendy sneakers.This was my first website i made when i was just a begginer and very new to fronted devlepment. I made it with my all potential  i had that time. Languages : HTMLL, CSS nad Javascript.</span>
           </div>
         </div>
         <button
