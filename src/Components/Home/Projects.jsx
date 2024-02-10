@@ -24,11 +24,6 @@ function Projects() {
             <span>RecepeSite a Recepe finding website where anyone can find Recepe of different countries. This website has all basic functionality. Languages : React JS  , Redux  and CSS.</span>
           </div>
           <div className="carousel-item">
-            <img src={petWeb} className="d-block w-100"  />
-            <NavLink to="https://adoptionsite.netlify.app" target="blank"  className="Demo">Live Demo</NavLink>
-            <span>warmShelter is a Dog adoption website where people can adopt dogs. warmshelter also tell the importance of adopting pet and spread a message : (adopt don't buy).This website made with heart. Languages : React js and Css.</span>
-          </div>
-          <div className="carousel-item">
             <img src={shoes} className="d-block w-100"  />
             <NavLink to="https://sneakerswear.netlify.app" target="blank"  className="Demo">Live Demo</NavLink>
             <span>Sneaks is a Sneakers website where anyone can buy all trendy sneakers.This was my first website i made when i was just a begginer and very new to fronted devlepment. I made it with my all potential  i had that time. Languages : HTMLL, CSS nad Javascript.</span>

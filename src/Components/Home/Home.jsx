@@ -10,7 +10,7 @@ function Home() {
     <>
       <Navbar/>
       <div id="Home" className="  ">
-        <div className="intro   flex flex-row">
+        <div className="intro   flex ">
           <div className=" content ">
             <div className="greet pl-10 flex text-6xl text-gray-200 gap-3 ">
               <span>Namaste</span>
